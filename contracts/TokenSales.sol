@@ -27,7 +27,7 @@ contract TokenSales {
     tokenPrice[_tokenId] = 0;
   }
 
-  function removeTokenOnSale(uint256 memory tokenIds) public {
+  function removeTokenOnSale(uint256[] memory tokenIds) public {
     require(tokenIds.length > 0 , "tokenIds is empty");
     for(uint i = 0; i < tokenIds.length; i++){
       uint tokenId = tokenIds[i];
