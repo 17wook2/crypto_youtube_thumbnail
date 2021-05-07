@@ -234,7 +234,7 @@ const App = {
     tokens.append(template.html());
   },
 
-  renderMyTokensSale: function (tokenId, ytt, metadata, price) { 
+  renderMyTokensSale: function (tokenId, ytt, metadata, price) {  
    
   },
 

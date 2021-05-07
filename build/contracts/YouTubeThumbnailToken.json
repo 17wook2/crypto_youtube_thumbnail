@@ -540,14 +540,14 @@
     "absolutePath": "/home/wook/crypto_youtube_thumbnail/crypto-ytt-starter-master/contracts/YouTubeThumbnailToken.sol",
     "exportedSymbols": {
       "YouTubeThumbnailToken": [
-        183
+        238
       ]
     },
-    "id": 184,
+    "id": 239,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 62,
+        "id": 117,
         "literals": [
           "solidity",
           "^",
@@ -560,10 +560,10 @@
       {
         "absolutePath": "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol",
         "file": "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol",
-        "id": 63,
+        "id": 118,
         "nodeType": "ImportDirective",
-        "scope": 184,
-        "sourceUnit": 1544,
+        "scope": 239,
+        "sourceUnit": 1599,
         "src": "25:69:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -574,63 +574,63 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 64,
+              "id": 119,
               "name": "ERC721Full",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1543,
+              "referencedDeclaration": 1598,
               "src": "130:10:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721Full_$1543",
+                "typeIdentifier": "t_contract$_ERC721Full_$1598",
                 "typeString": "contract ERC721Full"
               }
             },
-            "id": 65,
+            "id": 120,
             "nodeType": "InheritanceSpecifier",
             "src": "130:10:2"
           }
         ],
         "contractDependencies": [
-          210,
-          311,
-          321,
-          1179,
-          1519,
-          1543,
-          1716,
-          1819,
-          1846,
-          1869
+          265,
+          366,
+          376,
+          1234,
+          1574,
+          1598,
+          1771,
+          1874,
+          1901,
+          1924
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 183,
+        "id": 238,
         "linearizedBaseContracts": [
-          183,
-          1543,
-          1716,
-          1869,
-          1519,
-          1846,
-          1179,
-          1819,
-          311,
-          321,
-          210
+          238,
+          1598,
+          1771,
+          1924,
+          1574,
+          1901,
+          1234,
+          1874,
+          366,
+          376,
+          265
         ],
         "name": "YouTubeThumbnailToken",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "YouTubeThumbnailToken.YouTubeThumbnail",
-            "id": 70,
+            "id": 125,
             "members": [
               {
                 "constant": false,
-                "id": 67,
+                "id": 122,
                 "name": "author",
                 "nodeType": "VariableDeclaration",
-                "scope": 70,
+                "scope": 125,
                 "src": "177:13:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -639,7 +639,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 66,
+                  "id": 121,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "177:6:2",
@@ -653,10 +653,10 @@
               },
               {
                 "constant": false,
-                "id": 69,
+                "id": 124,
                 "name": "dateCreated",
                 "nodeType": "VariableDeclaration",
-                "scope": 70,
+                "scope": 125,
                 "src": "196:18:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -665,7 +665,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 68,
+                  "id": 123,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "196:6:2",
@@ -680,27 +680,27 @@
             ],
             "name": "YouTubeThumbnail",
             "nodeType": "StructDefinition",
-            "scope": 183,
+            "scope": 238,
             "src": "147:72:2",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 74,
+            "id": 129,
             "name": "YouTubeThumbnails",
             "nodeType": "VariableDeclaration",
-            "scope": 183,
+            "scope": 238,
             "src": "223:55:2",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_YouTubeThumbnail_$70_storage_$",
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_YouTubeThumbnail_$125_storage_$",
               "typeString": "mapping(uint256 => struct YouTubeThumbnailToken.YouTubeThumbnail)"
             },
             "typeName": {
-              "id": 73,
+              "id": 128,
               "keyType": {
-                "id": 71,
+                "id": 126,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "232:7:2",
@@ -712,18 +712,18 @@
               "nodeType": "Mapping",
               "src": "223:37:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_YouTubeThumbnail_$70_storage_$",
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_YouTubeThumbnail_$125_storage_$",
                 "typeString": "mapping(uint256 => struct YouTubeThumbnailToken.YouTubeThumbnail)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 72,
+                "id": 127,
                 "name": "YouTubeThumbnail",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 70,
+                "referencedDeclaration": 125,
                 "src": "243:16:2",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_YouTubeThumbnail_$70_storage_ptr",
+                  "typeIdentifier": "t_struct$_YouTubeThumbnail_$125_storage_ptr",
                   "typeString": "struct YouTubeThumbnailToken.YouTubeThumbnail"
                 }
               }
@@ -733,10 +733,10 @@
           },
           {
             "constant": false,
-            "id": 78,
+            "id": 133,
             "name": "videoIdsCreated",
             "nodeType": "VariableDeclaration",
-            "scope": 183,
+            "scope": 238,
             "src": "282:43:2",
             "stateVariable": true,
             "storageLocation": "default",
@@ -745,9 +745,9 @@
               "typeString": "mapping(string => uint256)"
             },
             "typeName": {
-              "id": 77,
+              "id": 132,
               "keyType": {
-                "id": 75,
+                "id": 130,
                 "name": "string",
                 "nodeType": "ElementaryTypeName",
                 "src": "291:6:2",
@@ -763,7 +763,7 @@
                 "typeString": "mapping(string => uint256)"
               },
               "valueType": {
-                "id": 76,
+                "id": 131,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "301:7:2",
@@ -778,13 +778,13 @@
           },
           {
             "body": {
-              "id": 89,
+              "id": 144,
               "nodeType": "Block",
               "src": "415:2:2",
               "statements": []
             },
             "documentation": null,
-            "id": 90,
+            "id": 145,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -792,11 +792,11 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 85,
+                    "id": 140,
                     "name": "name",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 80,
+                    "referencedDeclaration": 135,
                     "src": "394:4:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_memory_ptr",
@@ -805,11 +805,11 @@
                   },
                   {
                     "argumentTypes": null,
-                    "id": 86,
+                    "id": 141,
                     "name": "symbol",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 82,
+                    "referencedDeclaration": 137,
                     "src": "400:6:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_memory_ptr",
@@ -817,17 +817,17 @@
                     }
                   }
                 ],
-                "id": 87,
+                "id": 142,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 84,
+                  "id": 139,
                   "name": "ERC721Full",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1543,
+                  "referencedDeclaration": 1598,
                   "src": "383:10:2",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ERC721Full_$1543_$",
+                    "typeIdentifier": "t_type$_t_contract$_ERC721Full_$1598_$",
                     "typeString": "type(contract ERC721Full)"
                   }
                 },
@@ -838,15 +838,15 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 83,
+              "id": 138,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 80,
+                  "id": 135,
                   "name": "name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 90,
+                  "scope": 145,
                   "src": "341:18:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -855,7 +855,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 79,
+                    "id": 134,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "341:6:2",
@@ -869,10 +869,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 82,
+                  "id": 137,
                   "name": "symbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 90,
+                  "scope": 145,
                   "src": "361:20:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -881,7 +881,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 81,
+                    "id": 136,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "361:6:2",
@@ -897,12 +897,12 @@
               "src": "340:42:2"
             },
             "returnParameters": {
-              "id": 88,
+              "id": 143,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "415:0:2"
             },
-            "scope": 183,
+            "scope": 238,
             "src": "329:88:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -910,7 +910,7 @@
           },
           {
             "body": {
-              "id": 144,
+              "id": 199,
               "nodeType": "Block",
               "src": "601:345:2",
               "statements": [
@@ -924,7 +924,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 106,
+                        "id": 161,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -933,25 +933,25 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 102,
+                            "id": 157,
                             "name": "videoIdsCreated",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 78,
+                            "referencedDeclaration": 133,
                             "src": "619:15:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_string_memory_$_t_uint256_$",
                               "typeString": "mapping(string memory => uint256)"
                             }
                           },
-                          "id": 104,
+                          "id": 159,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 103,
+                            "id": 158,
                             "name": "_videoId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 92,
+                            "referencedDeclaration": 147,
                             "src": "635:8:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
@@ -974,7 +974,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "30",
-                          "id": 105,
+                          "id": 160,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -998,7 +998,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "766964656f49642068617320616c7265616479206265656e2063726561746564",
-                        "id": 107,
+                        "id": 162,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1025,21 +1025,21 @@
                           "typeString": "literal_string \"videoId has already been created\""
                         }
                       ],
-                      "id": 101,
+                      "id": 156,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1978,
-                        1979
+                        2033,
+                        2034
                       ],
-                      "referencedDeclaration": 1979,
+                      "referencedDeclaration": 2034,
                       "src": "611:7:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 108,
+                    "id": 163,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1053,21 +1053,21 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 109,
+                  "id": 164,
                   "nodeType": "ExpressionStatement",
                   "src": "611:75:2"
                 },
                 {
                   "assignments": [
-                    111
+                    166
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 111,
+                      "id": 166,
                       "name": "tokenId",
                       "nodeType": "VariableDeclaration",
-                      "scope": 144,
+                      "scope": 199,
                       "src": "696:15:2",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -1076,7 +1076,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 110,
+                        "id": 165,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "696:7:2",
@@ -1089,14 +1089,14 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 117,
+                  "id": 172,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
                         "hexValue": "31",
-                        "id": 115,
+                        "id": 170,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1124,20 +1124,20 @@
                         "arguments": [],
                         "expression": {
                           "argumentTypes": [],
-                          "id": 112,
+                          "id": 167,
                           "name": "totalSupply",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [
-                            1254
+                            1309
                           ],
-                          "referencedDeclaration": 1254,
+                          "referencedDeclaration": 1309,
                           "src": "714:11:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_uint256_$",
                             "typeString": "function () view returns (uint256)"
                           }
                         },
-                        "id": 113,
+                        "id": 168,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1151,21 +1151,21 @@
                           "typeString": "uint256"
                         }
                       },
-                      "id": 114,
+                      "id": 169,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "add",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 348,
+                      "referencedDeclaration": 403,
                       "src": "714:17:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
                       }
                     },
-                    "id": 116,
+                    "id": 171,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1185,7 +1185,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 125,
+                    "id": 180,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1194,25 +1194,25 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 118,
+                        "id": 173,
                         "name": "YouTubeThumbnails",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 74,
+                        "referencedDeclaration": 129,
                         "src": "744:17:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_YouTubeThumbnail_$70_storage_$",
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_YouTubeThumbnail_$125_storage_$",
                           "typeString": "mapping(uint256 => struct YouTubeThumbnailToken.YouTubeThumbnail storage ref)"
                         }
                       },
-                      "id": 120,
+                      "id": 175,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 119,
+                        "id": 174,
                         "name": "tokenId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 111,
+                        "referencedDeclaration": 166,
                         "src": "762:7:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1226,7 +1226,7 @@
                       "nodeType": "IndexAccess",
                       "src": "744:26:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_YouTubeThumbnail_$70_storage",
+                        "typeIdentifier": "t_struct$_YouTubeThumbnail_$125_storage",
                         "typeString": "struct YouTubeThumbnailToken.YouTubeThumbnail storage ref"
                       }
                     },
@@ -1237,11 +1237,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 122,
+                          "id": 177,
                           "name": "_author",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 94,
+                          "referencedDeclaration": 149,
                           "src": "790:7:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -1250,11 +1250,11 @@
                         },
                         {
                           "argumentTypes": null,
-                          "id": 123,
+                          "id": 178,
                           "name": "_dateCreated",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 96,
+                          "referencedDeclaration": 151,
                           "src": "799:12:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -1273,18 +1273,18 @@
                             "typeString": "string memory"
                           }
                         ],
-                        "id": 121,
+                        "id": 176,
                         "name": "YouTubeThumbnail",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 70,
+                        "referencedDeclaration": 125,
                         "src": "773:16:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_struct$_YouTubeThumbnail_$70_storage_ptr_$",
+                          "typeIdentifier": "t_type$_t_struct$_YouTubeThumbnail_$125_storage_ptr_$",
                           "typeString": "type(struct YouTubeThumbnailToken.YouTubeThumbnail storage pointer)"
                         }
                       },
-                      "id": 124,
+                      "id": 179,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1294,24 +1294,24 @@
                       "nodeType": "FunctionCall",
                       "src": "773:39:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_YouTubeThumbnail_$70_memory",
+                        "typeIdentifier": "t_struct$_YouTubeThumbnail_$125_memory",
                         "typeString": "struct YouTubeThumbnailToken.YouTubeThumbnail memory"
                       }
                     },
                     "src": "744:68:2",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_YouTubeThumbnail_$70_storage",
+                      "typeIdentifier": "t_struct$_YouTubeThumbnail_$125_storage",
                       "typeString": "struct YouTubeThumbnailToken.YouTubeThumbnail storage ref"
                     }
                   },
-                  "id": 126,
+                  "id": 181,
                   "nodeType": "ExpressionStatement",
                   "src": "744:68:2"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 131,
+                    "id": 186,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1320,25 +1320,25 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 127,
+                        "id": 182,
                         "name": "videoIdsCreated",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 78,
+                        "referencedDeclaration": 133,
                         "src": "822:15:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_string_memory_$_t_uint256_$",
                           "typeString": "mapping(string memory => uint256)"
                         }
                       },
-                      "id": 129,
+                      "id": 184,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 128,
+                        "id": 183,
                         "name": "_videoId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 92,
+                        "referencedDeclaration": 147,
                         "src": "838:8:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -1360,11 +1360,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 130,
+                      "id": 185,
                       "name": "tokenId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 111,
+                      "referencedDeclaration": 166,
                       "src": "850:7:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -1377,7 +1377,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 132,
+                  "id": 187,
                   "nodeType": "ExpressionStatement",
                   "src": "822:35:2"
                 },
@@ -1389,18 +1389,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 134,
+                          "id": 189,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1975,
+                          "referencedDeclaration": 2030,
                           "src": "875:3:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 135,
+                        "id": 190,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1416,11 +1416,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 136,
+                        "id": 191,
                         "name": "tokenId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 111,
+                        "referencedDeclaration": 166,
                         "src": "887:7:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1439,20 +1439,20 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 133,
+                      "id": 188,
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1326
+                        1381
                       ],
-                      "referencedDeclaration": 1326,
+                      "referencedDeclaration": 1381,
                       "src": "869:5:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 137,
+                    "id": 192,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1466,7 +1466,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 138,
+                  "id": 193,
                   "nodeType": "ExpressionStatement",
                   "src": "869:26:2"
                 },
@@ -1476,11 +1476,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 140,
+                        "id": 195,
                         "name": "tokenId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 111,
+                        "referencedDeclaration": 166,
                         "src": "918:7:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1489,11 +1489,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 141,
+                        "id": 196,
                         "name": "_tokenURI",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 98,
+                        "referencedDeclaration": 153,
                         "src": "927:9:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -1512,18 +1512,18 @@
                           "typeString": "string memory"
                         }
                       ],
-                      "id": 139,
+                      "id": 194,
                       "name": "_setTokenURI",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1667,
+                      "referencedDeclaration": 1722,
                       "src": "905:12:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (uint256,string memory)"
                       }
                     },
-                    "id": 142,
+                    "id": 197,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1537,29 +1537,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 143,
+                  "id": 198,
                   "nodeType": "ExpressionStatement",
                   "src": "905:32:2"
                 }
               ]
             },
             "documentation": null,
-            "id": 145,
+            "id": 200,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "mintYTT",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 99,
+              "id": 154,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 92,
+                  "id": 147,
                   "name": "_videoId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 145,
+                  "scope": 200,
                   "src": "451:22:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1568,7 +1568,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 91,
+                    "id": 146,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "451:6:2",
@@ -1582,10 +1582,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 94,
+                  "id": 149,
                   "name": "_author",
                   "nodeType": "VariableDeclaration",
-                  "scope": 145,
+                  "scope": 200,
                   "src": "483:21:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1594,7 +1594,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 93,
+                    "id": 148,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "483:6:2",
@@ -1608,10 +1608,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 96,
+                  "id": 151,
                   "name": "_dateCreated",
                   "nodeType": "VariableDeclaration",
-                  "scope": 145,
+                  "scope": 200,
                   "src": "514:26:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1620,7 +1620,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 95,
+                    "id": 150,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "514:6:2",
@@ -1634,10 +1634,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 98,
+                  "id": 153,
                   "name": "_tokenURI",
                   "nodeType": "VariableDeclaration",
-                  "scope": 145,
+                  "scope": 200,
                   "src": "550:23:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1646,7 +1646,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 97,
+                    "id": 152,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "550:6:2",
@@ -1662,12 +1662,12 @@
               "src": "441:140:2"
             },
             "returnParameters": {
-              "id": 100,
+              "id": 155,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "601:0:2"
             },
-            "scope": 183,
+            "scope": 238,
             "src": "425:521:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1675,7 +1675,7 @@
           },
           {
             "body": {
-              "id": 164,
+              "id": 219,
               "nodeType": "Block",
               "src": "1039:103:2",
               "statements": [
@@ -1689,25 +1689,25 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 154,
+                            "id": 209,
                             "name": "YouTubeThumbnails",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 74,
+                            "referencedDeclaration": 129,
                             "src": "1057:17:2",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_YouTubeThumbnail_$70_storage_$",
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_YouTubeThumbnail_$125_storage_$",
                               "typeString": "mapping(uint256 => struct YouTubeThumbnailToken.YouTubeThumbnail storage ref)"
                             }
                           },
-                          "id": 156,
+                          "id": 211,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 155,
+                            "id": 210,
                             "name": "_tokenId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 147,
+                            "referencedDeclaration": 202,
                             "src": "1075:8:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1721,18 +1721,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1057:27:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_YouTubeThumbnail_$70_storage",
+                            "typeIdentifier": "t_struct$_YouTubeThumbnail_$125_storage",
                             "typeString": "struct YouTubeThumbnailToken.YouTubeThumbnail storage ref"
                           }
                         },
-                        "id": 157,
+                        "id": 212,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "author",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 67,
+                        "referencedDeclaration": 122,
                         "src": "1057:34:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -1745,25 +1745,25 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 158,
+                            "id": 213,
                             "name": "YouTubeThumbnails",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 74,
+                            "referencedDeclaration": 129,
                             "src": "1093:17:2",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_YouTubeThumbnail_$70_storage_$",
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_YouTubeThumbnail_$125_storage_$",
                               "typeString": "mapping(uint256 => struct YouTubeThumbnailToken.YouTubeThumbnail storage ref)"
                             }
                           },
-                          "id": 160,
+                          "id": 215,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 159,
+                            "id": 214,
                             "name": "_tokenId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 147,
+                            "referencedDeclaration": 202,
                             "src": "1111:8:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1777,18 +1777,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1093:27:2",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_YouTubeThumbnail_$70_storage",
+                            "typeIdentifier": "t_struct$_YouTubeThumbnail_$125_storage",
                             "typeString": "struct YouTubeThumbnailToken.YouTubeThumbnail storage ref"
                           }
                         },
-                        "id": 161,
+                        "id": 216,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "dateCreated",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 69,
+                        "referencedDeclaration": 124,
                         "src": "1093:39:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_storage",
@@ -1796,7 +1796,7 @@
                         }
                       }
                     ],
-                    "id": 162,
+                    "id": 217,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
@@ -1809,30 +1809,30 @@
                       "typeString": "tuple(string storage ref,string storage ref)"
                     }
                   },
-                  "functionReturnParameters": 153,
-                  "id": 163,
+                  "functionReturnParameters": 208,
+                  "id": 218,
                   "nodeType": "Return",
                   "src": "1049:84:2"
                 }
               ]
             },
             "documentation": null,
-            "id": 165,
+            "id": 220,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getYTT",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 148,
+              "id": 203,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 147,
+                  "id": 202,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 165,
+                  "scope": 220,
                   "src": "970:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1841,7 +1841,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 146,
+                    "id": 201,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "970:7:2",
@@ -1857,15 +1857,15 @@
               "src": "969:18:2"
             },
             "returnParameters": {
-              "id": 153,
+              "id": 208,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 150,
+                  "id": 205,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 165,
+                  "scope": 220,
                   "src": "1009:13:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1874,7 +1874,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 149,
+                    "id": 204,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1009:6:2",
@@ -1888,10 +1888,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 152,
+                  "id": 207,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 165,
+                  "scope": 220,
                   "src": "1024:13:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1900,7 +1900,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 151,
+                    "id": 206,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1024:6:2",
@@ -1915,7 +1915,7 @@
               ],
               "src": "1008:30:2"
             },
-            "scope": 183,
+            "scope": 238,
             "src": "954:188:2",
             "stateMutability": "view",
             "superFunction": null,
@@ -1923,7 +1923,7 @@
           },
           {
             "body": {
-              "id": 181,
+              "id": 236,
               "nodeType": "Block",
               "src": "1232:71:2",
               "statements": [
@@ -1936,7 +1936,7 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 176,
+                      "id": 231,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1945,25 +1945,25 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 172,
+                          "id": 227,
                           "name": "videoIdsCreated",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 78,
+                          "referencedDeclaration": 133,
                           "src": "1249:15:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_string_memory_$_t_uint256_$",
                             "typeString": "mapping(string memory => uint256)"
                           }
                         },
-                        "id": 174,
+                        "id": 229,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 173,
+                          "id": 228,
                           "name": "_videoId",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 167,
+                          "referencedDeclaration": 222,
                           "src": "1265:8:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -1986,7 +1986,7 @@
                       "rightExpression": {
                         "argumentTypes": null,
                         "hexValue": "30",
-                        "id": 175,
+                        "id": 230,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -2010,7 +2010,7 @@
                     "falseExpression": {
                       "argumentTypes": null,
                       "hexValue": "66616c7365",
-                      "id": 178,
+                      "id": 233,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -2025,7 +2025,7 @@
                       },
                       "value": "false"
                     },
-                    "id": 179,
+                    "id": 234,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2035,7 +2035,7 @@
                     "trueExpression": {
                       "argumentTypes": null,
                       "hexValue": "74727565",
-                      "id": 177,
+                      "id": 232,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -2055,30 +2055,30 @@
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 171,
-                  "id": 180,
+                  "functionReturnParameters": 226,
+                  "id": 235,
                   "nodeType": "Return",
                   "src": "1242:52:2"
                 }
               ]
             },
             "documentation": null,
-            "id": 182,
+            "id": 237,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "isTokenAlreadyCreated",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 168,
+              "id": 223,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 167,
+                  "id": 222,
                   "name": "_videoId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 182,
+                  "scope": 237,
                   "src": "1181:22:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -2087,7 +2087,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 166,
+                    "id": 221,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1181:6:2",
@@ -2103,15 +2103,15 @@
               "src": "1180:24:2"
             },
             "returnParameters": {
-              "id": 171,
+              "id": 226,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 170,
+                  "id": 225,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 182,
+                  "scope": 237,
                   "src": "1226:4:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2120,7 +2120,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 169,
+                    "id": 224,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "1226:4:2",
@@ -2135,14 +2135,14 @@
               ],
               "src": "1225:6:2"
             },
-            "scope": 183,
+            "scope": 238,
             "src": "1150:153:2",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 184,
+        "scope": 239,
         "src": "96:1209:2"
       }
     ],
@@ -2153,7 +2153,7 @@
       "absolutePath": "/home/wook/crypto_youtube_thumbnail/crypto-ytt-starter-master/contracts/YouTubeThumbnailToken.sol",
       "exportedSymbols": {
         "YouTubeThumbnailToken": [
-          183
+          238
         ]
       }
     },
@@ -2167,57 +2167,57 @@
             ".0"
           ]
         },
-        "id": 62,
+        "id": 117,
         "name": "PragmaDirective",
         "src": "0:23:2"
       },
       {
         "attributes": {
-          "SourceUnit": 1544,
+          "SourceUnit": 1599,
           "absolutePath": "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol",
           "file": "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol",
-          "scope": 184,
+          "scope": 239,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 63,
+        "id": 118,
         "name": "ImportDirective",
         "src": "25:69:2"
       },
       {
         "attributes": {
           "contractDependencies": [
-            210,
-            311,
-            321,
-            1179,
-            1519,
-            1543,
-            1716,
-            1819,
-            1846,
-            1869
+            265,
+            366,
+            376,
+            1234,
+            1574,
+            1598,
+            1771,
+            1874,
+            1901,
+            1924
           ],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            183,
-            1543,
-            1716,
-            1869,
-            1519,
-            1846,
-            1179,
-            1819,
-            311,
-            321,
-            210
+            238,
+            1598,
+            1771,
+            1924,
+            1574,
+            1901,
+            1234,
+            1874,
+            366,
+            376,
+            265
           ],
           "name": "YouTubeThumbnailToken",
-          "scope": 184
+          "scope": 239
         },
         "children": [
           {
@@ -2229,15 +2229,15 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "ERC721Full",
-                  "referencedDeclaration": 1543,
+                  "referencedDeclaration": 1598,
                   "type": "contract ERC721Full"
                 },
-                "id": 64,
+                "id": 119,
                 "name": "UserDefinedTypeName",
                 "src": "130:10:2"
               }
             ],
-            "id": 65,
+            "id": 120,
             "name": "InheritanceSpecifier",
             "src": "130:10:2"
           },
@@ -2245,7 +2245,7 @@
             "attributes": {
               "canonicalName": "YouTubeThumbnailToken.YouTubeThumbnail",
               "name": "YouTubeThumbnail",
-              "scope": 183,
+              "scope": 238,
               "visibility": "public"
             },
             "children": [
@@ -2253,7 +2253,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "author",
-                  "scope": 70,
+                  "scope": 125,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "string",
@@ -2266,12 +2266,12 @@
                       "name": "string",
                       "type": "string"
                     },
-                    "id": 66,
+                    "id": 121,
                     "name": "ElementaryTypeName",
                     "src": "177:6:2"
                   }
                 ],
-                "id": 67,
+                "id": 122,
                 "name": "VariableDeclaration",
                 "src": "177:13:2"
               },
@@ -2279,7 +2279,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "dateCreated",
-                  "scope": 70,
+                  "scope": 125,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "string",
@@ -2292,17 +2292,17 @@
                       "name": "string",
                       "type": "string"
                     },
-                    "id": 68,
+                    "id": 123,
                     "name": "ElementaryTypeName",
                     "src": "196:6:2"
                   }
                 ],
-                "id": 69,
+                "id": 124,
                 "name": "VariableDeclaration",
                 "src": "196:18:2"
               }
             ],
-            "id": 70,
+            "id": 125,
             "name": "StructDefinition",
             "src": "147:72:2"
           },
@@ -2310,7 +2310,7 @@
             "attributes": {
               "constant": false,
               "name": "YouTubeThumbnails",
-              "scope": 183,
+              "scope": 238,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "mapping(uint256 => struct YouTubeThumbnailToken.YouTubeThumbnail)",
@@ -2328,7 +2328,7 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 71,
+                    "id": 126,
                     "name": "ElementaryTypeName",
                     "src": "232:7:2"
                   },
@@ -2336,20 +2336,20 @@
                     "attributes": {
                       "contractScope": null,
                       "name": "YouTubeThumbnail",
-                      "referencedDeclaration": 70,
+                      "referencedDeclaration": 125,
                       "type": "struct YouTubeThumbnailToken.YouTubeThumbnail"
                     },
-                    "id": 72,
+                    "id": 127,
                     "name": "UserDefinedTypeName",
                     "src": "243:16:2"
                   }
                 ],
-                "id": 73,
+                "id": 128,
                 "name": "Mapping",
                 "src": "223:37:2"
               }
             ],
-            "id": 74,
+            "id": 129,
             "name": "VariableDeclaration",
             "src": "223:55:2"
           },
@@ -2357,7 +2357,7 @@
             "attributes": {
               "constant": false,
               "name": "videoIdsCreated",
-              "scope": 183,
+              "scope": 238,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "mapping(string => uint256)",
@@ -2375,7 +2375,7 @@
                       "name": "string",
                       "type": "string"
                     },
-                    "id": 75,
+                    "id": 130,
                     "name": "ElementaryTypeName",
                     "src": "291:6:2"
                   },
@@ -2384,17 +2384,17 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 76,
+                    "id": 131,
                     "name": "ElementaryTypeName",
                     "src": "301:7:2"
                   }
                 ],
-                "id": 77,
+                "id": 132,
                 "name": "Mapping",
                 "src": "282:27:2"
               }
             ],
-            "id": 78,
+            "id": 133,
             "name": "VariableDeclaration",
             "src": "282:43:2"
           },
@@ -2405,7 +2405,7 @@
               "isConstructor": true,
               "kind": "constructor",
               "name": "",
-              "scope": 183,
+              "scope": 238,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -2417,7 +2417,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "name",
-                      "scope": 90,
+                      "scope": 145,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -2430,12 +2430,12 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 79,
+                        "id": 134,
                         "name": "ElementaryTypeName",
                         "src": "341:6:2"
                       }
                     ],
-                    "id": 80,
+                    "id": 135,
                     "name": "VariableDeclaration",
                     "src": "341:18:2"
                   },
@@ -2443,7 +2443,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "symbol",
-                      "scope": 90,
+                      "scope": 145,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -2456,17 +2456,17 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 81,
+                        "id": 136,
                         "name": "ElementaryTypeName",
                         "src": "361:6:2"
                       }
                     ],
-                    "id": 82,
+                    "id": 137,
                     "name": "VariableDeclaration",
                     "src": "361:20:2"
                   }
                 ],
-                "id": 83,
+                "id": 138,
                 "name": "ParameterList",
                 "src": "340:42:2"
               },
@@ -2477,7 +2477,7 @@
                   ]
                 },
                 "children": [],
-                "id": 88,
+                "id": 143,
                 "name": "ParameterList",
                 "src": "415:0:2"
               },
@@ -2489,11 +2489,11 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 1543,
+                      "referencedDeclaration": 1598,
                       "type": "type(contract ERC721Full)",
                       "value": "ERC721Full"
                     },
-                    "id": 84,
+                    "id": 139,
                     "name": "Identifier",
                     "src": "383:10:2"
                   },
@@ -2503,11 +2503,11 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 80,
+                      "referencedDeclaration": 135,
                       "type": "string memory",
                       "value": "name"
                     },
-                    "id": 85,
+                    "id": 140,
                     "name": "Identifier",
                     "src": "394:4:2"
                   },
@@ -2517,16 +2517,16 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 82,
+                      "referencedDeclaration": 137,
                       "type": "string memory",
                       "value": "symbol"
                     },
-                    "id": 86,
+                    "id": 141,
                     "name": "Identifier",
                     "src": "400:6:2"
                   }
                 ],
-                "id": 87,
+                "id": 142,
                 "name": "ModifierInvocation",
                 "src": "383:24:2"
               },
@@ -2537,12 +2537,12 @@
                   ]
                 },
                 "children": [],
-                "id": 89,
+                "id": 144,
                 "name": "Block",
                 "src": "415:2:2"
               }
             ],
-            "id": 90,
+            "id": 145,
             "name": "FunctionDefinition",
             "src": "329:88:2"
           },
@@ -2556,7 +2556,7 @@
                 null
               ],
               "name": "mintYTT",
-              "scope": 183,
+              "scope": 238,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -2568,7 +2568,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_videoId",
-                      "scope": 145,
+                      "scope": 200,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -2581,12 +2581,12 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 91,
+                        "id": 146,
                         "name": "ElementaryTypeName",
                         "src": "451:6:2"
                       }
                     ],
-                    "id": 92,
+                    "id": 147,
                     "name": "VariableDeclaration",
                     "src": "451:22:2"
                   },
@@ -2594,7 +2594,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_author",
-                      "scope": 145,
+                      "scope": 200,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -2607,12 +2607,12 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 93,
+                        "id": 148,
                         "name": "ElementaryTypeName",
                         "src": "483:6:2"
                       }
                     ],
-                    "id": 94,
+                    "id": 149,
                     "name": "VariableDeclaration",
                     "src": "483:21:2"
                   },
@@ -2620,7 +2620,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_dateCreated",
-                      "scope": 145,
+                      "scope": 200,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -2633,12 +2633,12 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 95,
+                        "id": 150,
                         "name": "ElementaryTypeName",
                         "src": "514:6:2"
                       }
                     ],
-                    "id": 96,
+                    "id": 151,
                     "name": "VariableDeclaration",
                     "src": "514:26:2"
                   },
@@ -2646,7 +2646,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_tokenURI",
-                      "scope": 145,
+                      "scope": 200,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -2659,17 +2659,17 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 97,
+                        "id": 152,
                         "name": "ElementaryTypeName",
                         "src": "550:6:2"
                       }
                     ],
-                    "id": 98,
+                    "id": 153,
                     "name": "VariableDeclaration",
                     "src": "550:23:2"
                   }
                 ],
-                "id": 99,
+                "id": 154,
                 "name": "ParameterList",
                 "src": "441:140:2"
               },
@@ -2680,7 +2680,7 @@
                   ]
                 },
                 "children": [],
-                "id": 100,
+                "id": 155,
                 "name": "ParameterList",
                 "src": "601:0:2"
               },
@@ -2716,14 +2716,14 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1978,
-                                1979
+                                2033,
+                                2034
                               ],
-                              "referencedDeclaration": 1979,
+                              "referencedDeclaration": 2034,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
-                            "id": 101,
+                            "id": 156,
                             "name": "Identifier",
                             "src": "611:7:2"
                           },
@@ -2758,11 +2758,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 78,
+                                      "referencedDeclaration": 133,
                                       "type": "mapping(string memory => uint256)",
                                       "value": "videoIdsCreated"
                                     },
-                                    "id": 102,
+                                    "id": 157,
                                     "name": "Identifier",
                                     "src": "619:15:2"
                                   },
@@ -2772,16 +2772,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 92,
+                                      "referencedDeclaration": 147,
                                       "type": "string memory",
                                       "value": "_videoId"
                                     },
-                                    "id": 103,
+                                    "id": 158,
                                     "name": "Identifier",
                                     "src": "635:8:2"
                                   }
                                 ],
-                                "id": 104,
+                                "id": 159,
                                 "name": "IndexAccess",
                                 "src": "619:25:2"
                               },
@@ -2798,12 +2798,12 @@
                                   "type": "int_const 0",
                                   "value": "0"
                                 },
-                                "id": 105,
+                                "id": 160,
                                 "name": "Literal",
                                 "src": "648:1:2"
                               }
                             ],
-                            "id": 106,
+                            "id": 161,
                             "name": "BinaryOperation",
                             "src": "619:30:2"
                           },
@@ -2820,24 +2820,24 @@
                               "type": "literal_string \"videoId has already been created\"",
                               "value": "videoId has already been created"
                             },
-                            "id": 107,
+                            "id": 162,
                             "name": "Literal",
                             "src": "651:34:2"
                           }
                         ],
-                        "id": 108,
+                        "id": 163,
                         "name": "FunctionCall",
                         "src": "611:75:2"
                       }
                     ],
-                    "id": 109,
+                    "id": 164,
                     "name": "ExpressionStatement",
                     "src": "611:75:2"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        111
+                        166
                       ]
                     },
                     "children": [
@@ -2845,7 +2845,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "tokenId",
-                          "scope": 144,
+                          "scope": 199,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "uint256",
@@ -2858,12 +2858,12 @@
                               "name": "uint256",
                               "type": "uint256"
                             },
-                            "id": 110,
+                            "id": 165,
                             "name": "ElementaryTypeName",
                             "src": "696:7:2"
                           }
                         ],
-                        "id": 111,
+                        "id": 166,
                         "name": "VariableDeclaration",
                         "src": "696:15:2"
                       },
@@ -2895,7 +2895,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "add",
-                              "referencedDeclaration": 348,
+                              "referencedDeclaration": 403,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -2923,23 +2923,23 @@
                                         null
                                       ],
                                       "overloadedDeclarations": [
-                                        1254
+                                        1309
                                       ],
-                                      "referencedDeclaration": 1254,
+                                      "referencedDeclaration": 1309,
                                       "type": "function () view returns (uint256)",
                                       "value": "totalSupply"
                                     },
-                                    "id": 112,
+                                    "id": 167,
                                     "name": "Identifier",
                                     "src": "714:11:2"
                                   }
                                 ],
-                                "id": 113,
+                                "id": 168,
                                 "name": "FunctionCall",
                                 "src": "714:13:2"
                               }
                             ],
-                            "id": 114,
+                            "id": 169,
                             "name": "MemberAccess",
                             "src": "714:17:2"
                           },
@@ -2956,17 +2956,17 @@
                               "type": "int_const 1",
                               "value": "1"
                             },
-                            "id": 115,
+                            "id": 170,
                             "name": "Literal",
                             "src": "732:1:2"
                           }
                         ],
-                        "id": 116,
+                        "id": 171,
                         "name": "FunctionCall",
                         "src": "714:20:2"
                       }
                     ],
-                    "id": 117,
+                    "id": 172,
                     "name": "VariableDeclarationStatement",
                     "src": "696:38:2"
                   },
@@ -2999,11 +2999,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 74,
+                                  "referencedDeclaration": 129,
                                   "type": "mapping(uint256 => struct YouTubeThumbnailToken.YouTubeThumbnail storage ref)",
                                   "value": "YouTubeThumbnails"
                                 },
-                                "id": 118,
+                                "id": 173,
                                 "name": "Identifier",
                                 "src": "744:17:2"
                               },
@@ -3013,16 +3013,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 111,
+                                  "referencedDeclaration": 166,
                                   "type": "uint256",
                                   "value": "tokenId"
                                 },
-                                "id": 119,
+                                "id": 174,
                                 "name": "Identifier",
                                 "src": "762:7:2"
                               }
                             ],
-                            "id": 120,
+                            "id": 175,
                             "name": "IndexAccess",
                             "src": "744:26:2"
                           },
@@ -3056,11 +3056,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 70,
+                                  "referencedDeclaration": 125,
                                   "type": "type(struct YouTubeThumbnailToken.YouTubeThumbnail storage pointer)",
                                   "value": "YouTubeThumbnail"
                                 },
-                                "id": 121,
+                                "id": 176,
                                 "name": "Identifier",
                                 "src": "773:16:2"
                               },
@@ -3070,11 +3070,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 94,
+                                  "referencedDeclaration": 149,
                                   "type": "string memory",
                                   "value": "_author"
                                 },
-                                "id": 122,
+                                "id": 177,
                                 "name": "Identifier",
                                 "src": "790:7:2"
                               },
@@ -3084,26 +3084,26 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 96,
+                                  "referencedDeclaration": 151,
                                   "type": "string memory",
                                   "value": "_dateCreated"
                                 },
-                                "id": 123,
+                                "id": 178,
                                 "name": "Identifier",
                                 "src": "799:12:2"
                               }
                             ],
-                            "id": 124,
+                            "id": 179,
                             "name": "FunctionCall",
                             "src": "773:39:2"
                           }
                         ],
-                        "id": 125,
+                        "id": 180,
                         "name": "Assignment",
                         "src": "744:68:2"
                       }
                     ],
-                    "id": 126,
+                    "id": 181,
                     "name": "ExpressionStatement",
                     "src": "744:68:2"
                   },
@@ -3136,11 +3136,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 78,
+                                  "referencedDeclaration": 133,
                                   "type": "mapping(string memory => uint256)",
                                   "value": "videoIdsCreated"
                                 },
-                                "id": 127,
+                                "id": 182,
                                 "name": "Identifier",
                                 "src": "822:15:2"
                               },
@@ -3150,16 +3150,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 92,
+                                  "referencedDeclaration": 147,
                                   "type": "string memory",
                                   "value": "_videoId"
                                 },
-                                "id": 128,
+                                "id": 183,
                                 "name": "Identifier",
                                 "src": "838:8:2"
                               }
                             ],
-                            "id": 129,
+                            "id": 184,
                             "name": "IndexAccess",
                             "src": "822:25:2"
                           },
@@ -3169,21 +3169,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 111,
+                              "referencedDeclaration": 166,
                               "type": "uint256",
                               "value": "tokenId"
                             },
-                            "id": 130,
+                            "id": 185,
                             "name": "Identifier",
                             "src": "850:7:2"
                           }
                         ],
-                        "id": 131,
+                        "id": 186,
                         "name": "Assignment",
                         "src": "822:35:2"
                       }
                     ],
-                    "id": 132,
+                    "id": 187,
                     "name": "ExpressionStatement",
                     "src": "822:35:2"
                   },
@@ -3217,13 +3217,13 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1326
+                                1381
                               ],
-                              "referencedDeclaration": 1326,
+                              "referencedDeclaration": 1381,
                               "type": "function (address,uint256)",
                               "value": "_mint"
                             },
-                            "id": 133,
+                            "id": 188,
                             "name": "Identifier",
                             "src": "869:5:2"
                           },
@@ -3245,16 +3245,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1975,
+                                  "referencedDeclaration": 2030,
                                   "type": "msg",
                                   "value": "msg"
                                 },
-                                "id": 134,
+                                "id": 189,
                                 "name": "Identifier",
                                 "src": "875:3:2"
                               }
                             ],
-                            "id": 135,
+                            "id": 190,
                             "name": "MemberAccess",
                             "src": "875:10:2"
                           },
@@ -3264,21 +3264,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 111,
+                              "referencedDeclaration": 166,
                               "type": "uint256",
                               "value": "tokenId"
                             },
-                            "id": 136,
+                            "id": 191,
                             "name": "Identifier",
                             "src": "887:7:2"
                           }
                         ],
-                        "id": 137,
+                        "id": 192,
                         "name": "FunctionCall",
                         "src": "869:26:2"
                       }
                     ],
-                    "id": 138,
+                    "id": 193,
                     "name": "ExpressionStatement",
                     "src": "869:26:2"
                   },
@@ -3314,11 +3314,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 1667,
+                              "referencedDeclaration": 1722,
                               "type": "function (uint256,string memory)",
                               "value": "_setTokenURI"
                             },
-                            "id": 139,
+                            "id": 194,
                             "name": "Identifier",
                             "src": "905:12:2"
                           },
@@ -3328,11 +3328,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 111,
+                              "referencedDeclaration": 166,
                               "type": "uint256",
                               "value": "tokenId"
                             },
-                            "id": 140,
+                            "id": 195,
                             "name": "Identifier",
                             "src": "918:7:2"
                           },
@@ -3342,31 +3342,31 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 98,
+                              "referencedDeclaration": 153,
                               "type": "string memory",
                               "value": "_tokenURI"
                             },
-                            "id": 141,
+                            "id": 196,
                             "name": "Identifier",
                             "src": "927:9:2"
                           }
                         ],
-                        "id": 142,
+                        "id": 197,
                         "name": "FunctionCall",
                         "src": "905:32:2"
                       }
                     ],
-                    "id": 143,
+                    "id": 198,
                     "name": "ExpressionStatement",
                     "src": "905:32:2"
                   }
                 ],
-                "id": 144,
+                "id": 199,
                 "name": "Block",
                 "src": "601:345:2"
               }
             ],
-            "id": 145,
+            "id": 200,
             "name": "FunctionDefinition",
             "src": "425:521:2"
           },
@@ -3380,7 +3380,7 @@
                 null
               ],
               "name": "getYTT",
-              "scope": 183,
+              "scope": 238,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -3392,7 +3392,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_tokenId",
-                      "scope": 165,
+                      "scope": 220,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -3405,17 +3405,17 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 146,
+                        "id": 201,
                         "name": "ElementaryTypeName",
                         "src": "970:7:2"
                       }
                     ],
-                    "id": 147,
+                    "id": 202,
                     "name": "VariableDeclaration",
                     "src": "970:16:2"
                   }
                 ],
-                "id": 148,
+                "id": 203,
                 "name": "ParameterList",
                 "src": "969:18:2"
               },
@@ -3425,7 +3425,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 165,
+                      "scope": 220,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -3438,12 +3438,12 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 149,
+                        "id": 204,
                         "name": "ElementaryTypeName",
                         "src": "1009:6:2"
                       }
                     ],
-                    "id": 150,
+                    "id": 205,
                     "name": "VariableDeclaration",
                     "src": "1009:13:2"
                   },
@@ -3451,7 +3451,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 165,
+                      "scope": 220,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -3464,17 +3464,17 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 151,
+                        "id": 206,
                         "name": "ElementaryTypeName",
                         "src": "1024:6:2"
                       }
                     ],
-                    "id": 152,
+                    "id": 207,
                     "name": "VariableDeclaration",
                     "src": "1024:13:2"
                   }
                 ],
-                "id": 153,
+                "id": 208,
                 "name": "ParameterList",
                 "src": "1008:30:2"
               },
@@ -3482,7 +3482,7 @@
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 153
+                      "functionReturnParameters": 208
                     },
                     "children": [
                       {
@@ -3504,7 +3504,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "author",
-                              "referencedDeclaration": 67,
+                              "referencedDeclaration": 122,
                               "type": "string storage ref"
                             },
                             "children": [
@@ -3524,11 +3524,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 74,
+                                      "referencedDeclaration": 129,
                                       "type": "mapping(uint256 => struct YouTubeThumbnailToken.YouTubeThumbnail storage ref)",
                                       "value": "YouTubeThumbnails"
                                     },
-                                    "id": 154,
+                                    "id": 209,
                                     "name": "Identifier",
                                     "src": "1057:17:2"
                                   },
@@ -3538,21 +3538,21 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 147,
+                                      "referencedDeclaration": 202,
                                       "type": "uint256",
                                       "value": "_tokenId"
                                     },
-                                    "id": 155,
+                                    "id": 210,
                                     "name": "Identifier",
                                     "src": "1075:8:2"
                                   }
                                 ],
-                                "id": 156,
+                                "id": 211,
                                 "name": "IndexAccess",
                                 "src": "1057:27:2"
                               }
                             ],
-                            "id": 157,
+                            "id": 212,
                             "name": "MemberAccess",
                             "src": "1057:34:2"
                           },
@@ -3564,7 +3564,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "dateCreated",
-                              "referencedDeclaration": 69,
+                              "referencedDeclaration": 124,
                               "type": "string storage ref"
                             },
                             "children": [
@@ -3584,11 +3584,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 74,
+                                      "referencedDeclaration": 129,
                                       "type": "mapping(uint256 => struct YouTubeThumbnailToken.YouTubeThumbnail storage ref)",
                                       "value": "YouTubeThumbnails"
                                     },
-                                    "id": 158,
+                                    "id": 213,
                                     "name": "Identifier",
                                     "src": "1093:17:2"
                                   },
@@ -3598,41 +3598,41 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 147,
+                                      "referencedDeclaration": 202,
                                       "type": "uint256",
                                       "value": "_tokenId"
                                     },
-                                    "id": 159,
+                                    "id": 214,
                                     "name": "Identifier",
                                     "src": "1111:8:2"
                                   }
                                 ],
-                                "id": 160,
+                                "id": 215,
                                 "name": "IndexAccess",
                                 "src": "1093:27:2"
                               }
                             ],
-                            "id": 161,
+                            "id": 216,
                             "name": "MemberAccess",
                             "src": "1093:39:2"
                           }
                         ],
-                        "id": 162,
+                        "id": 217,
                         "name": "TupleExpression",
                         "src": "1056:77:2"
                       }
                     ],
-                    "id": 163,
+                    "id": 218,
                     "name": "Return",
                     "src": "1049:84:2"
                   }
                 ],
-                "id": 164,
+                "id": 219,
                 "name": "Block",
                 "src": "1039:103:2"
               }
             ],
-            "id": 165,
+            "id": 220,
             "name": "FunctionDefinition",
             "src": "954:188:2"
           },
@@ -3646,7 +3646,7 @@
                 null
               ],
               "name": "isTokenAlreadyCreated",
-              "scope": 183,
+              "scope": 238,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -3658,7 +3658,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_videoId",
-                      "scope": 182,
+                      "scope": 237,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -3671,17 +3671,17 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 166,
+                        "id": 221,
                         "name": "ElementaryTypeName",
                         "src": "1181:6:2"
                       }
                     ],
-                    "id": 167,
+                    "id": 222,
                     "name": "VariableDeclaration",
                     "src": "1181:22:2"
                   }
                 ],
-                "id": 168,
+                "id": 223,
                 "name": "ParameterList",
                 "src": "1180:24:2"
               },
@@ -3691,7 +3691,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 182,
+                      "scope": 237,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -3704,17 +3704,17 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 169,
+                        "id": 224,
                         "name": "ElementaryTypeName",
                         "src": "1226:4:2"
                       }
                     ],
-                    "id": 170,
+                    "id": 225,
                     "name": "VariableDeclaration",
                     "src": "1226:4:2"
                   }
                 ],
-                "id": 171,
+                "id": 226,
                 "name": "ParameterList",
                 "src": "1225:6:2"
               },
@@ -3722,7 +3722,7 @@
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 171
+                      "functionReturnParameters": 226
                     },
                     "children": [
                       {
@@ -3766,11 +3766,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 78,
+                                      "referencedDeclaration": 133,
                                       "type": "mapping(string memory => uint256)",
                                       "value": "videoIdsCreated"
                                     },
-                                    "id": 172,
+                                    "id": 227,
                                     "name": "Identifier",
                                     "src": "1249:15:2"
                                   },
@@ -3780,16 +3780,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 167,
+                                      "referencedDeclaration": 222,
                                       "type": "string memory",
                                       "value": "_videoId"
                                     },
-                                    "id": 173,
+                                    "id": 228,
                                     "name": "Identifier",
                                     "src": "1265:8:2"
                                   }
                                 ],
-                                "id": 174,
+                                "id": 229,
                                 "name": "IndexAccess",
                                 "src": "1249:25:2"
                               },
@@ -3806,12 +3806,12 @@
                                   "type": "int_const 0",
                                   "value": "0"
                                 },
-                                "id": 175,
+                                "id": 230,
                                 "name": "Literal",
                                 "src": "1278:1:2"
                               }
                             ],
-                            "id": 176,
+                            "id": 231,
                             "name": "BinaryOperation",
                             "src": "1249:30:2"
                           },
@@ -3828,7 +3828,7 @@
                               "type": "bool",
                               "value": "true"
                             },
-                            "id": 177,
+                            "id": 232,
                             "name": "Literal",
                             "src": "1282:4:2"
                           },
@@ -3845,37 +3845,37 @@
                               "type": "bool",
                               "value": "false"
                             },
-                            "id": 178,
+                            "id": 233,
                             "name": "Literal",
                             "src": "1289:5:2"
                           }
                         ],
-                        "id": 179,
+                        "id": 234,
                         "name": "Conditional",
                         "src": "1249:45:2"
                       }
                     ],
-                    "id": 180,
+                    "id": 235,
                     "name": "Return",
                     "src": "1242:52:2"
                   }
                 ],
-                "id": 181,
+                "id": 236,
                 "name": "Block",
                 "src": "1232:71:2"
               }
             ],
-            "id": 182,
+            "id": 237,
             "name": "FunctionDefinition",
             "src": "1150:153:2"
           }
         ],
-        "id": 183,
+        "id": 238,
         "name": "ContractDefinition",
         "src": "96:1209:2"
       }
     ],
-    "id": 184,
+    "id": 239,
     "name": "SourceUnit",
     "src": "0:1306:2"
   },
@@ -3901,10 +3901,16 @@
       "links": {},
       "address": "0xd301B48794CcB3aE26ac488E0Dc32ee020f8e244",
       "transactionHash": "0xe611b6558b458974624d99548978973ab8c49cd6d75a784df37270a1af0e1358"
+    },
+    "1620373321067": {
+      "events": {},
+      "links": {},
+      "address": "0xc4E80596A3d11ADfd7EDA7268df0c8A0d2A16195",
+      "transactionHash": "0x508b1c72876bd7f8a1406f5a8e4b84332c6ecea41070c6dad8e61b292aee88da"
     }
   },
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-05-07T06:43:27.381Z",
+  "updatedAt": "2021-05-07T08:00:29.945Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {
